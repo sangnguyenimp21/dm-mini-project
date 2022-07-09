@@ -1,0 +1,77 @@
+{
+    "Fields": {
+        "Header": {
+            "type": "text",
+            "value": ""
+        },
+        "Age": {
+            "label": "Age",
+            "field_name": "age",
+            "type": "slider",
+            "min": 17,
+            "max": 98,
+            "default": 38
+        },
+        "Job": {
+            "label": "Job",
+            "field_name": "job",
+            "type": "select",
+            "options": [
+                "admin.", "blue-collar", "entrepreneur", 
+                "housemaid","management","retired",
+                "self-employed","services","student",
+                "technician","unemployed","unknown"
+            ]
+        },
+        "Marital": {
+            "label": "Martial",
+            "field_name": "marital",
+            "type": "select",
+            "options": [
+                "divorced","married","single","unknown"
+            ]
+        },
+        "Education": {
+            "label": "Education",
+            "field_name": "education",
+            "type": "select",
+            "options": [
+                "basic.4y","basic.6y","basic.9y",
+                "high.school","illiterate","professional.course",
+                "university.degree","unknown"
+            ]
+        },
+        "Default": {
+            "label": "Default",
+            "field_name": "default",
+            "type": "select",
+            "options": [
+                "yes", "no", "unknown"
+            ]
+        },
+        "Housing": {
+            "label": "Housing",
+            "field_name": "housing",
+            "type": "select",
+            "options": [
+                "yes", "no", "unknown"
+            ]
+        },
+        "Loan": {
+            "label": "Loan",
+            "field_name": "loan",
+            "type": "select",
+            "options": [
+                "yes", "no", "unknown"
+            ]
+        },
+        "Contact": {
+            "label": "Contact",
+            "field_name": "contact",
+            "type": "select",
+            "options": [
+                "cellular","telephone"
+            ]
+        }
+    }
+}
